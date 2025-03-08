@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "1656",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-03-07T18:01:18.359Z",
+      "notes": "ss",
+      "position": {
+        "lat": "40.002240440074",
+        "lng": "-0.011844635009765627"
+      }
+    },
+    {
+      "id": "9d7d",
+      "cityName": "Paba",
+      "country": "Bangladesh",
+      "emoji": "🇧🇩",
+      "date": "2025-03-07T18:38:06.363Z",
+      "notes": "",
+      "position": {
+        "lat": "24.34928613958779",
+        "lng": "88.62396240234375"
+      }
+    },
+    {
+      "id": "b973",
+      "cityName": "Paba",
+      "country": "Bangladesh",
+      "emoji": "🇧🇩",
+      "date": "2025-03-07T19:35:39.202Z",
+      "notes": "bss",
+      "position": {
+        "lat": "24.385407516368424",
+        "lng": "88.61194610595705"
+      }
+    }
+  ]
+}

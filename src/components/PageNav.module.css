@@ -1,0 +1,63 @@
+/* .nav {
+  background-color: orangered;
+} */
+
+/* ⏺ ".nav ul" mane head class k dhore korbo jate global page e impact na pore, only specific component ei impact porbe */
+/* .nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+} */
+
+/* ⏺ it's now completely global, we use global function. But better holo css global file "index.css" e use kora */
+/* :global(.test) {
+  background-color: red;
+} */
+
+/* .nav :global(.active) {
+  background-color: forestgreen;
+} */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--color-brand--2);
+  opacity: 0.9;
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  text-shadow: none;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--0);
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+  transition: all 0.3s;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+a.ctaLink:hover {
+  background-color: #05ab5e;
+}

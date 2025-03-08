@@ -19,6 +19,5 @@ npm-debug.log*
 Thumbs.db  
 
 # Dependencies lock files (optional)  
-package-lock.json 
-package.json   
+package-lock.json  
 yarn.lock 
